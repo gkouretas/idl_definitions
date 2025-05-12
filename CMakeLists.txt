@@ -32,6 +32,8 @@ rosidl_generate_interfaces(${PROJECT_NAME}
   "msg/MindroveArmBandMsg.msg"
   "msg/MindroveArmBandEightChannelMsg.msg"
   "msg/UserInputMsg.msg"
+  "msg/ExerciseState.msg"
+  "msg/FatigueState.msg"
   DEPENDENCIES builtin_interfaces
   DEPENDENCIES geometry_msgs
 )
